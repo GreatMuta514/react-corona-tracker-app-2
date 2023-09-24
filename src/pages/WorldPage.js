@@ -5,7 +5,6 @@ const WorldPage = (props) => {
     <div>
       <Card
         allCountriesData={props.allCountriesData}
-        getAllCountriesData={props.getAllCountriesData}
       />
     </div>
   );
