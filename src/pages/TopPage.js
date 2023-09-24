@@ -11,7 +11,7 @@ const TopPage = (props) => {
         getCountryData={props.getCountryData}
         setCountry={props.setCountry}
       />
-      <Results />
+      <Results countryData={props.countryData} />
     </div>
   );
 };
